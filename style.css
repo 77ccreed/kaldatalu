@@ -24,6 +24,11 @@
   margin-right: auto;
 }
 
+#font {
+  font-family: 'Cinzel',
+  serif;
+}
+
 #pic {
   background-image: url("images/taust.jpg");
   background-size: cover;
