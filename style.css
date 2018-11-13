@@ -28,6 +28,7 @@
   background-image: url("images/taust.jpg");
   background-size: cover;
   background-position: center;
+  min-height: 250px;
 }
 
 .bgGradien {
@@ -88,7 +89,7 @@
   }
 
   a:hover {
-    background-color: rgb(183, 218, 253);
+    background-color: rgb(205, 229, 253);
     text-transform: uppercase;
   }
 }
