@@ -2,7 +2,10 @@
   border: 1px solid red;
 }*/
 
-* {
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -24,7 +27,7 @@
   margin-right: auto;
 }
 
-#font {
+.font {
   font-family: 'Cinzel',
   serif;
 }
@@ -34,6 +37,10 @@
   background-size: cover;
   background-position: center;
   min-height: 250px;
+}
+
+#mees{
+  max-height: 200px;
 }
 
 .bgGradien {
