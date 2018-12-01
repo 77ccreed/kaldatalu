@@ -53,6 +53,13 @@
   min-height: 250px;
 }
 
+#pic4 {
+  background-image: url("images/pub/1.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 250px;
+}
+
 
 #mees{
   max-height: 150px;
