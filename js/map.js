@@ -17,11 +17,11 @@ function initMap() {
   var contentString = '<div id="content">' +
     '<div id="siteNotice">' +
     '</div>' +
-    '<h6 id="firstHeading" class="firstHeading">Valga Rockiklubi MTÜ</h6>' +
+    '<h6 id="firstHeading" class="firstHeading">Kalda talu puhkekeskus</h6>' +
     '' +
     '' +
     '</p>' +
-    '<p><a href="https://www.google.com/maps/place/Valga+Rockiklubi+MT%C3%9C/@57.775373,26.035553,18z/data=!4m5!3m4!1s0x0:0xd23eacb70359dd5f!8m2!3d57.774996!4d26.0347024?hl=en-US"  target="_blank">' +
+    '<p><a href="https://www.google.com/maps/place/Kalda+talu+puhkekeskus/@57.8299925,26.2770218,17z/data=!3m1!4b1!4m5!3m4!1s0x46eba788d90f8965:0x93c88706d399e30c!8m2!3d57.8299897!4d26.2792105?hl=en-US"  target="_blank">' +
     'Vaata Google Mapsist</a> ' +
     '</p>' +
     '</div>' +
@@ -37,7 +37,7 @@ function initMap() {
   var marker = new google.maps.Marker({
     position: klubi,
     map: map,
-    title: 'Valga Rockiklubi'
+    title: 'Kalda talu puhkekeskus'
   });
 
   marker.addListener('click', function () {
