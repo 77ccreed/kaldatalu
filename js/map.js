@@ -11,7 +11,7 @@ function initMap() {
       lat: 57.83022,
       lng: 26.27867
     },
-    zoom: 4
+    zoom: 8
   });
 
   var contentString = '<div id="content">' +
