@@ -122,12 +122,12 @@
 
 @media only screen and (min-width: 1150px) {
   a {
-    background-color: rgb(0, 208, 128);
+    /*background-color: rgb(0, 208, 128);*/
     transition: background-color 0.9s;
   }
 
   a:hover {
     text-transform: uppercase;
-    background-color: rgba(208, 0, 0, 0.555);
+    background-color: rgba(208, 0, 0, 0.288);
   }
 }
