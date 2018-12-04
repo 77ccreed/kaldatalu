@@ -60,9 +60,12 @@
   min-height: 250px;
 }
 
+#pic5 {
+  background-image: url("images/kampingmaja/chouse3_small.jpg");
+}
 
 #mees{
-  max-height: 150px;
+  max-height: 130px;
 }
 
 .bgGradien {
@@ -75,6 +78,10 @@
 
 .bg {
   background-color: rgba(125, 196, 116, 0.514);
+}
+
+.profile-photo {
+  max-height: 100%;
 }
 
 #map {
