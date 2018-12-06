@@ -73,12 +73,12 @@
 }
 
 .bgGradien {
-  background: linear-gradient(to left, rgba(16, 92, 1, 0.568), rgba(19, 156, 1, 0.404) 50%, rgba(23, 187, 1, 0.493) 98%, #045f01bd 1%);
+  background: linear-gradient(to left, rgba(16, 92, 1, 0.384), rgba(19, 156, 1, 0.288) 50%, rgba(23, 187, 1, 0.267) 98%, #045f01a2 1%);
 }
 
 
 .bg {
-  background: rgba(125, 196, 116, 0.726);
+  background: rgba(103, 163, 95, 0.521);
 }
 
 #map {
@@ -90,15 +90,15 @@
 /* shadow*/
 
 .shadow {
--webkit-box-shadow: 10px 10px 1px -9px rgba(0, 0, 0, 0.75);
--moz-box-shadow: 10px 10px 1px -9px rgba(0, 0, 0, 0.75);
-box-shadow: 10px 10px 1px -9px rgba(0, 0, 0, 0.75);
+-webkit-box-shadow: 10px 10px 14px -5px rgba(0, 0, 0, 0.75);
+-moz-box-shadow: 10px 10px 14px -5px rgba(0, 0, 0, 0.75);
+box-shadow: 10px 10px 14px -5px rgba(0, 0, 0, 0.75);
 }
 
 .shadow:hover {
--webkit-box-shadow: 10px 10px 2px -8px rgba(0, 0, 0, 0.75);
--moz-box-shadow: 10px 10px 2px -8px rgba(0, 0, 0, 0.75);
-box-shadow: 10px 10px 2px -8px rgba(0, 0, 0, 0.75);
+-webkit-box-shadow: 10px 10px 1px -9px rgba(0, 0, 0, 0.75);
+-moz-box-shadow: 10px 10px 1px -9px rgba(0, 0, 0, 0.75);
+box-shadow: 10px 10px 1px -9px rgba(0, 0, 0, 0.75);
 }
 
 /* shadow end*/
