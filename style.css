@@ -73,12 +73,12 @@
 }
 
 .bgGradien {
-  background: linear-gradient(to left, rgba(16, 92, 1, 0.726), rgba(19, 156, 1, 0.445) 50%, rgba(23, 187, 1, 0.493) 98%, #045f01bd 1%);
+  background: linear-gradient(to left, rgba(16, 92, 1, 0.568), rgba(19, 156, 1, 0.404) 50%, rgba(23, 187, 1, 0.493) 98%, #045f01bd 1%);
 }
 
 
 .bg {
-  background: rgba(125, 196, 116, 0.603);
+  background: rgba(125, 196, 116, 0.918);
 }
 
 #map {
