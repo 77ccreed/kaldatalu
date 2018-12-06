@@ -32,6 +32,13 @@
   serif;
 }
 
+.pic {
+  background-image: url("images/taust.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 250px;
+}
+
 #pic {
   background-image: url("images/taust.jpg");
   background-size: cover;
