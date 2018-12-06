@@ -78,7 +78,7 @@
 
 
 .bg {
-  background: rgba(125, 196, 116, 0.918);
+  background: rgba(125, 196, 116, 0.726);
 }
 
 #map {
@@ -111,7 +111,7 @@ box-shadow: 10px 10px 2px -8px rgba(0, 0, 0, 0.75);
 
   a:hover {
     text-transform: uppercase;
-    background-color: rgba(208, 0, 0, 0.288);
+   /* background-color: rgba(208, 0, 0, 0.288);*/
   }
 }
 
