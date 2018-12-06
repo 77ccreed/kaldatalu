@@ -69,23 +69,16 @@
 
 
 #mees{
-  max-height: 180px;
+  max-height: 200px;
 }
 
 .bgGradien {
-  background: linear-gradient(to left, rgba(16, 92, 1, 0.842), rgba(19, 156, 1, 0.445) 50%, rgba(23, 187, 1, 0.493) 98%, #045f01 1%);
+  background: linear-gradient(to left, rgba(16, 92, 1, 0.726), rgba(19, 156, 1, 0.445) 50%, rgba(23, 187, 1, 0.493) 98%, #045f01bd 1%);
 }
 
-.bgGradien2 {
-  background: linear-gradient(to left, rgb(220, 55, 70), rgb(220, 55, 70) 50%, rgb(220, 55, 70) 25%, rgb(52, 58, 64) 75%);
-}
 
 .bg {
-  background-color: rgba(125, 196, 116, 0.514);
-}
-
-.profile-photo {
-  max-height: 100%;
+  background: rgba(125, 196, 116, 0.603);
 }
 
 #map {
@@ -101,32 +94,6 @@
   -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
   -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-}
-
-.effect8:before,
-.effect8:after {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
-  -moz-box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
-  top: 10px;
-  bottom: 10px;
-  left: 0;
-  right: 0;
-  -moz-border-radius: 100px / 10px;
-  border-radius: 100px / 10px;
-}
-
-.effect8:after {
-  right: 10px;
-  left: auto;
-  -webkit-transform: skew(8deg) rotate(3deg);
-  -moz-transform: skew(8deg) rotate(3deg);
-  -ms-transform: skew(8deg) rotate(3deg);
-  -o-transform: skew(8deg) rotate(3deg);
-  transform: skew(8deg) rotate(3deg);
 }
 
 /* shadow end*/
