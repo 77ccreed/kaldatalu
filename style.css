@@ -73,12 +73,12 @@
 }
 
 .bgGradien {
-  background: linear-gradient(to left, rgba(16, 92, 1, 0.384), rgba(19, 156, 1, 0.288) 50%, rgba(23, 187, 1, 0.267) 98%, #045f01a2 1%);
+  background: linear-gradient(to left, rgba(16, 92, 1, 0.493), rgba(19, 156, 1, 0.466) 50%, rgba(23, 187, 1, 0.425) 98%, #045f019a 1%);
 }
 
 
 .bg {
-  background: rgba(103, 163, 95, 0.521);
+  background: rgba(142, 209, 134, 0.842);
 }
 
 #map {
@@ -90,9 +90,9 @@
 /* shadow*/
 
 .shadow {
--webkit-box-shadow: 10px 10px 14px -5px rgba(0, 0, 0, 0.75);
--moz-box-shadow: 10px 10px 14px -5px rgba(0, 0, 0, 0.75);
-box-shadow: 10px 10px 14px -5px rgba(0, 0, 0, 0.75);
+-webkit-box-shadow: 10px 10px 14px -8px rgba(0, 0, 0, 0.75);
+-moz-box-shadow: 10px 10px 14px -8px rgba(0, 0, 0, 0.75);
+box-shadow: 10px 10px 14px -8px rgba(0, 0, 0, 0.75);
 }
 
 .shadow:hover {
