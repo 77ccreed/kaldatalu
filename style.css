@@ -31,9 +31,10 @@ html {
 }
 
 .font {
+  color: rgb(17, 80, 30);
   font-family: 'Cinzel',
   serif;
-  text-shadow: 10px 10px 14px rgba(0, 94, 24, 0.527);
+  text-shadow: 10px 10px 14px rgba(0, 94, 24, 0.144);
 }
 
 .pic {
@@ -146,7 +147,7 @@ box-shadow: 10px 10px 5px -9px rgba(0, 0, 0, 0.75);
 }
 
 .text-shadow {
-text-shadow: 10px 10px 14px rgba(0, 94, 24, 0.527);
+/*text-shadow: 10px 10px 14px rgba(0, 94, 24, 0.527);*/
 
 /*
   text-shadow:
