@@ -7,7 +7,7 @@ The project is Kalda talu homepage.
 * Download repository (ZIP file) or git clone https://github.com/77ccreed/kaldatalu 
 * Then open index.html
 
-## Code Dependencies
+### Code Dependencies
 
 The website is built with the following dependencies:
 
