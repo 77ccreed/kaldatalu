@@ -17,3 +17,12 @@ $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function () {
     }
   }
 });
+
+var offsetAmount = 500;
+$(document).scroll(function () {
+  if ($(document).scrollTop() >= offsetAmount) {
+    $('.scroll-hide').removeClass("hidden");
+  } else {
+    $('.scroll-hide').addClass("hidden");
+  }
+});
