@@ -21,8 +21,8 @@ $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function () {
 var offsetAmount = 500;
 $(document).scroll(function () {
   if ($(document).scrollTop() >= offsetAmount) {
-    $('.scroll-hide').removeClass("hidden");
+    $('.scroll-hide').removeClass("d-none");
   } else {
-    $('.scroll-hide').addClass("hidden");
+    $('.scroll-hide').addClass("d-none");
   }
 });
