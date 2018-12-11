@@ -78,13 +78,13 @@ html {
 }
 
 .bgGradien {
-  background: linear-gradient(to left, rgb(221, 196, 7), rgb(255, 213, 0) 50%, rgb(221, 190, 16) 98%, #a5a314d5 1%);
+  background: linear-gradient(to left, rgb(252, 227, 115), rgb(252, 227, 115) 50%, rgb(252, 227, 115) 98%, rgb(154, 209, 139) 1%);
 
 }
 
 
 .bg {
-  background: rgba(199, 181, 22, 0.705);
+  background: rgba(204, 166, 154);
 }
 
 #map {
