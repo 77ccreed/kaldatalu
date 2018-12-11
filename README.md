@@ -12,8 +12,10 @@ The project is Kalda talu homepage.
 The website is built with the following dependencies:
 
 * Google Fonts ( Cinzel )
+* Google Maps
 * Font Awesome icons
-* Bootstrap 4
+* Bootstrap 4.0.0
+* jQuery 3.2.1
 * Images
 
 ### Built With
