@@ -34,7 +34,7 @@ html {
   /*color: rgb(17, 80, 30);*/
   font-family: 'Cinzel',
   serif;
-  text-shadow: 10px 10px 14px rgba(0, 94, 24, 0.144);
+  text-shadow: 10px 10px 14px rgba(10, 63, 23, 0.144);
 }
 
 .pic {
@@ -78,13 +78,13 @@ html {
 }
 
 .bgGradien {
-  background: linear-gradient(to left, rgb(180, 167, 63), rgb(207, 197, 57) 50%, rgb(201, 195, 77) 98%, #d4b814c4 1%);
+  background: linear-gradient(to left, rgb(189, 171, 41), rgb(235, 224, 63) 50%, rgb(219, 212, 79) 98%, #d6b80b 1%);
 
 }
 
 
 .bg {
-  background: rgba(207, 192, 55, 0.534);
+  background: rgba(207, 192, 55, 0.767);
 }
 
 #map {
