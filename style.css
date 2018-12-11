@@ -31,7 +31,7 @@ html {
 }
 
 .font {
-  color: rgb(17, 80, 30);
+  /*color: rgb(17, 80, 30);*/
   font-family: 'Cinzel',
   serif;
   text-shadow: 10px 10px 14px rgba(0, 94, 24, 0.144);
@@ -78,13 +78,13 @@ html {
 }
 
 .bgGradien {
-  background: linear-gradient(to left, rgb(218, 216, 127), rgb(212, 206, 120) 50%, rgb(235, 231, 140) 98%, #ecd241fd 1%);
+  background: linear-gradient(to left, rgb(180, 167, 63), rgb(207, 197, 57) 50%, rgb(201, 195, 77) 98%, #d4b814c4 1%);
 
 }
 
 
 .bg {
-  background: rgba(221, 206, 75, 0.692);
+  background: rgba(207, 192, 55, 0.534);
 }
 
 #map {
@@ -148,7 +148,7 @@ box-shadow: 10px 10px 5px -9px rgba(0, 0, 0, 0.75);
 }
 
 .btn-green {
-  background: rgb(130, 199, 130);
+  background: rgba(52, 229, 248, 0.205);
 
 }
 
