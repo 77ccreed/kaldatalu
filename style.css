@@ -74,11 +74,11 @@ html {
 
 
 #mees{
-  max-height: 200px;
+  max-height: 180px;
 }
 
 .bgGradien {
-  background: linear-gradient(to left, rgb(189, 168, 7), rgb(250, 215, 43) 50%, rgb(223, 193, 28) 98%, #ccc924d5 1%);
+  background: linear-gradient(to left, rgb(189, 168, 7), rgb(250, 215, 43) 50%, rgb(223, 193, 28) 98%, #99971cd5 1%);
 
 }
 
