@@ -13,6 +13,7 @@ The website is built with the following dependencies:
 
 * Google Fonts ( Cinzel )
 * Google Maps
+* Google Analytics
 * Font Awesome icons
 * Bootstrap 4.0.0
 * jQuery 3.2.1

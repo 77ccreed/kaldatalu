@@ -82,15 +82,15 @@ html {
 }
 
 .bg-color {
-  background: rgba(154, 209, 139);
+  background: rgb(154, 209, 139);
 }
 
 .btn-color {
-  background: rgba(154, 209, 139);
+  background: rgb(154, 209, 139);
 }
 
 .btn-color:hover {
-  background: rgba(243, 116, 73);
+  background: rgb(243, 116, 73);
 }
 
 #map {
