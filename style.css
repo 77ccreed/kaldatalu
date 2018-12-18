@@ -91,7 +91,8 @@ html {
 }
 
 .bg-color-secondary {
-  background: rgb(87, 75, 6);
+  background: #577590;
+  color:#D7E8BA;
 }
 
 .container-bg{
@@ -114,7 +115,7 @@ background: #E6E8E6;
 
 .btn-color-tutvustus:hover {
   background: #4DA1A9;
-  color: #611C35;
+  color: #034732;
 }
 
 .btn-color:hover {
