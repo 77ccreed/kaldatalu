@@ -107,6 +107,16 @@ background: #E6E8E6;
   background: #EEEFA8;
 }
 
+.btn-color-tutvustus {
+  background: #2E5077;
+  color:#D7E8BA;
+}
+
+.btn-color-tutvustus:hover {
+  background: #4DA1A9;
+  color: #611C35;
+}
+
 .btn-color:hover {
   background: #E16036;
 }
