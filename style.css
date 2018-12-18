@@ -83,7 +83,7 @@ color:#271415;
 }
 
 .bg-color {
-  background: rgb(237, 174, 73);
+  background: #FFF94C;
 }
 
 /*.nav-color{
@@ -92,11 +92,11 @@ color:#271415;
 }*/
 
 .btn-color {
-  background: #F1F0CC;
+  background: #B5D8B7;
 }
 
 .btn-color:hover {
-  background: #F1F0CC;
+  background: #CDE5CF;
 }
 
 #map {
