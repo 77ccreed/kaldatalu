@@ -71,14 +71,14 @@ html {
 }
 
 .font {
-color:#462326;
+color:#271415;
   font-family: 'Cinzel',
     serif;
   text-shadow: 10px 10px 14px rgba(8, 8, 8, 0.062);
 }
 
 .bgGradien {
-  background: linear-gradient(to left, rgb(255, 249, 76), rgb(255, 249, 76) 50%, rgb(232, 227, 70) 98%, rgb(232, 227, 70) 2%);
+  background: linear-gradient(to left, rgb(232, 227, 70), rgb(232, 227, 70) 50%, rgb(232, 227, 70) 98%, rgb(232, 227, 70) 2%);
   /*background: #EFCA08;*/
 }
 
