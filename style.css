@@ -30,13 +30,6 @@ html {
   margin-right: auto;
 }
 
-.font {
-  color: rgb(46, 40, 42);
-  font-family: 'Cinzel',
-  serif;
-  text-shadow: 10px 10px 14px rgba(8, 8, 8, 0.151);
-}
-
 .pic {
   background-image: url("images/taust.jpg");
   background-size: cover;
@@ -77,20 +70,33 @@ html {
   max-height: 180px;
 }
 
+.font {
+
+  font-family: 'Cinzel',
+    serif;
+  text-shadow: 10px 10px 14px rgba(8, 8, 8, 0.062);
+}
+
 .bgGradien {
-  background: linear-gradient(to left, rgb(255, 201, 20), rgb(255, 201, 20) 50%, rgb(255, 201, 20) 98%, rgb(255, 201, 20) 2%);
+  background: linear-gradient(to left, rgb(229, 224, 89), rgb(229, 224, 89) 50%, rgb(229, 224, 89) 98%, rgb(229, 224, 89) 2%);
+  /*background: #EFCA08;*/
 }
 
 .bg-color {
-  background: rgb(118, 176, 65);
+  background: #70C1B3;
 }
 
+/*.nav-color{
+  background: rgb(46, 40, 42);
+  color:rgb(143, 142, 142);
+}*/
+
 .btn-color {
-  background: rgb(118, 176, 65);
+  background: #70C1B3;
 }
 
 .btn-color:hover {
-  background: rgb(228, 87, 46);
+  background: #F46036;
 }
 
 #map {
