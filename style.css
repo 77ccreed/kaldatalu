@@ -71,14 +71,14 @@ html {
 }
 
 .font {
-color:#271415;
+color:#2D3047;
   font-family: 'Cinzel',
     serif;
   text-shadow: 10px 10px 14px rgba(8, 8, 8, 0.062);
 }
 
 .bgGradien {
-  background: linear-gradient(to left, rgb(232, 227, 70), rgb(232, 227, 70) 50%, rgb(232, 227, 70) 98%, rgb(232, 227, 70) 2%);
+  background: linear-gradient(to left, rgb(233, 206, 44), rgb(233, 206, 44) 50%, rgb(233, 206, 44) 98%, rgb(233, 206, 44) 2%);
   /*background: #EFCA08;*/
 }
 
@@ -92,11 +92,11 @@ color:#271415;
 }*/
 
 .btn-color {
-  background: #B5D8B7;
+  background: #FFF689;
 }
 
 .btn-color:hover {
-  background: #CDE5CF;
+  background: #E57C04;
 }
 
 #map {
