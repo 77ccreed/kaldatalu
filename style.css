@@ -85,17 +85,21 @@ html {
   background: #F2D013;
 }
 
+.container-bg{
+background: #E6E8E6;
+}
+
 /*.nav-color{
   background: rgb(46, 40, 42);
   color:rgb(143, 142, 142);
 }*/
 
 .btn-color {
-  background: #F2DD6E;
+  background: #EEEFA8;
 }
 
 .btn-color:hover {
-  background: #EB8258;
+  background: #E16036;
 }
 
 #map {
