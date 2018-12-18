@@ -71,7 +71,6 @@ html {
 }
 
 .font {
-color:#2D3047;
   font-family: 'Cinzel',
     serif;
   text-shadow: 10px 10px 14px rgba(8, 8, 8, 0.062);
@@ -83,7 +82,7 @@ color:#2D3047;
 }
 
 .bg-color {
-  background: #FFF94C;
+  background: #E4FF1A;
 }
 
 /*.nav-color{
@@ -92,11 +91,11 @@ color:#2D3047;
 }*/
 
 .btn-color {
-  background: #FFF689;
+  background: #CFF27E;
 }
 
 .btn-color:hover {
-  background: #E57C04;
+  background: #EB8258;
 }
 
 #map {
