@@ -78,19 +78,19 @@ html {
 }
 
 .bgGradien {
-  background: linear-gradient(to left, rgb(252, 227, 115), rgb(252, 227, 115) 50%, rgb(252, 227, 115) 98%, rgb(204, 166, 154) 2%);
+  background: linear-gradient(to left, rgb(252, 226, 32), rgb(252, 226, 32) 50%, rgb(253, 236, 0) 98%, rgb(246, 211, 0) 2%);
 }
 
 .bg-color {
-  background: rgb(154, 209, 139);
+  background: rgb(198, 217, 0);
 }
 
 .btn-color {
-  background: rgb(154, 209, 139);
+  background: rgb(198, 214, 226);
 }
 
 .btn-color:hover {
-  background: rgb(243, 116, 73);
+  background: rgb(198, 217, 0);
 }
 
 #map {
