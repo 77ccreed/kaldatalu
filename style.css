@@ -77,7 +77,7 @@ html {
 }
 
 .bgGradien {
-  background: linear-gradient(to left, rgb(233, 206, 44), rgb(233, 206, 44) 50%, rgb(233, 206, 44) 98%, rgb(233, 206, 44) 2%);
+  background: linear-gradient(to left, rgb(255, 220, 28), rgb(255, 220, 28) 50%, rgb(255, 220, 28) 98%, rgb(255, 220, 28) 2%);
   /*background: #EFCA08;*/
 }
 
