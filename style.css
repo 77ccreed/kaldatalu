@@ -82,7 +82,7 @@ html {
 }
 
 .bg-color {
-  background: rgb(198, 217, 0);
+  background: rgb(198, 214, 226);
 }
 
 .btn-color {
@@ -151,11 +151,6 @@ box-shadow: 10px 10px 5px -9px rgba(0, 0, 0, 0.75);
   -o-transform: scale(1.2);
   -ms-transform: scale(1.2);
   transform: scale(1.2);
-}
-
-.btn-green {
-  background: rgba(52, 229, 248, 0.205);
-
 }
 
 
