@@ -77,12 +77,12 @@ html {
 }
 
 .bgGradien {
-  background: linear-gradient(to left, rgb(255, 220, 28), rgb(255, 220, 28) 50%, rgb(255, 220, 28) 98%, rgb(255, 220, 28) 2%);
+  background: linear-gradient(to left, rgb(242, 208, 19), rgb(255, 220, 28) 50%, rgb(242, 208, 19) 98%, rgb(242, 208, 19) 2%);
   /*background: #EFCA08;*/
 }
 
 .bg-color {
-  background: #FFDC1C;
+  background: #F2D013;
 }
 
 /*.nav-color{
