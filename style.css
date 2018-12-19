@@ -72,8 +72,8 @@ html {
 
 .font {
  
-  font-family: 'Cinzel',
-    serif;
+  /*font-family: 'Cinzel', serif;*/
+  font-family: Georgia, 'Times New Roman', Times, serif;
   text-shadow: 10px 10px 14px rgba(8, 8, 8, 0.062);
 }
 
@@ -108,7 +108,7 @@ background: #E6E8E6;
 
 .btn-color {
  /* background: #EEEFA8;*/
- background: #97CC04;
+ background: #91CB3E;
 }
 
 .btn-color-tutvustus {
