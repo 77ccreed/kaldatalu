@@ -78,7 +78,7 @@ html {
 }
 
 .bgGradien {
-  background: linear-gradient(to left, rgb(247, 210, 2), rgb(247, 210, 2) 50%, rgb(247, 210, 2) 98%, rgb(247, 210, 2) 2%);
+  background: linear-gradient(to left, rgb(255, 216, 0), rgb(255, 216, 0) 50%, rgb(255, 216, 0) 98%, rgb(255, 216, 0) 2%);
   /*background: #EFCA08;*/
 }
 
@@ -89,11 +89,11 @@ html {
 
 .bg-color {
   /*background: #F2D013;*/
-   background: linear-gradient(to left, rgb(242, 208, 19), rgb(168, 198, 134) 50%, rgb(242, 208, 19) 98%, rgb(242, 208, 19) 2%);
+   background: linear-gradient(to left, rgb(255, 216, 0), rgb(151, 204, 4) 50%, rgb(255, 216, 0) 98%, rgb(255, 216, 0) 2%);
 }
 
 .bg-color-secondary {
-  background: #A8C686;
+  background: #97CC04;
   /*color:#D7E8BA;*/
 }
 
@@ -108,7 +108,7 @@ background: #E6E8E6;
 
 .btn-color {
  /* background: #EEEFA8;*/
- background: #A8C686;
+ background: #97CC04;
 }
 
 .btn-color-tutvustus {
