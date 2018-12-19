@@ -71,6 +71,7 @@ html {
 }
 
 .font {
+ 
   font-family: 'Cinzel',
     serif;
   text-shadow: 10px 10px 14px rgba(8, 8, 8, 0.062);
@@ -87,7 +88,8 @@ html {
 }
 
 .bg-color {
-  background: #F2D013;
+  /*background: #F2D013;*/
+   background: linear-gradient(to left, rgb(242, 208, 19), rgb(168, 198, 134) 50%, rgb(242, 208, 19) 98%, rgb(242, 208, 19) 2%);
 }
 
 .bg-color-secondary {
