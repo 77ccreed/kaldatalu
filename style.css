@@ -110,17 +110,17 @@ background: #E6E8E6;
 
 .btn-color {
  /* background: #EEEFA8;*/
- background: #044B7F;
- color:#FDFFFC;
+ background: #2F4858;
+ color:#D7E8BA;
 }
 
 .btn-color:hover {
-   background: #FF5714;
+   background: #941B0C;
 
 }
 
 .btn-color-tutvustus {
-  background: #2E5077;
+  background: #2F4858;
   color:#D7E8BA;
 }
 
