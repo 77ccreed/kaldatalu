@@ -111,6 +111,11 @@ background: #E6E8E6;
 .btn-color {
  /* background: #EEEFA8;*/
  background: #91CB3E;
+
+}
+
+.btn-color:hover {
+  background: #E16036;
 }
 
 .btn-color-tutvustus {
