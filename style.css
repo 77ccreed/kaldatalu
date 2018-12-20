@@ -110,13 +110,13 @@ background: #E6E8E6;
 
 .btn-color {
  /* background: #EEEFA8;*/
- background: #07A0C3;
- color:#fff;
+ background: #044B7F;
+ color:#FDFFFC;
 }
 
 .btn-color:hover {
-   background: #4DA1A9;
-color:#fff;
+   background: #FF5714;
+
 }
 
 .btn-color-tutvustus {
@@ -195,7 +195,6 @@ img {
   float: left;
   width: 333px;
   height: 250px;
-
 }
 
 
