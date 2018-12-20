@@ -110,12 +110,13 @@ background: #E6E8E6;
 
 .btn-color {
  /* background: #EEEFA8;*/
- background: #91CB3E;
-
+ background: #07A0C3;
+ color:#fff;
 }
 
 .btn-color:hover {
-  background: #E16036;
+   background: #4DA1A9;
+color:#fff;
 }
 
 .btn-color-tutvustus {
@@ -128,9 +129,6 @@ background: #E6E8E6;
   color: #034732;
 }
 
-.btn-color:hover {
-  background: #E16036;
-}
 
 #map {
   width: 100%;
