@@ -31,8 +31,8 @@
 </script>
 </head>
 
-<body>
-  <div class="container-fluid bg-light">
+<body class="container-bg">
+  <div class="container-fluid">
 
     <header id="tutvustus">
       <div class="row">
@@ -87,26 +87,27 @@
         </div>
 
 
-        <div class="jumbotron jumbotron-fluid col-12 bg-light">
-          <h4 class="p-3 lead font-weight-bold bgGradien">Die Gastgeber Ulrich und Heinar begrüßen Sie und sorgen für
+        <div class="jumbotron jumbotron-fluid col-12 container-bg p-0 mt-5 mb-5">
+          <h4 class="p-3 m-0 lead font-weight-bold bg-color-secondary">Die Gastgeber Ulrich und Heinar begrüßen Sie und
+            sorgen
+            für
             einen
             angenehmen Aufenthalt.</h4>
         </div>
 
-
-        <div class="col-md-4 offset-md-1">
-          <div class="jumbotron jumbotron-fluid shadow bgGradien rounded">
+        <div class="col-md-4 offset-md-2">
+          <div class="jumbotron jumbotron-fluid bgGradien2 rounded">
             <div class="container">
-              <div class="card rounded hover-zoomin" style="width: 12rem;">
-                <img class="card-img-top rounded" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
-                  data-src="images/host/ulrich.jpg" alt="Ulrich">
-                <div class="card-body bg-light">
+              <div class="card rounded hover-zoomin bgGradien2 border-0" style="width: 12rem;">
+                <img class="card-img-top rounded" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" alt="Ulrich"
+                  data-src="images/host/ulrich.jpg">
+                <div class="card-body bgGradien2">
                   <h5 class="card-title">Ulrich</h5>
                   <h6 class="card-subtitle mb-2 text-muted">Englisch und Deutsch</h6>
                   <p class="card-text font-weight-bold">+372 5559 4476</p>
 
                   <!-- Button trigger modal -->
-                  <button type="button" class="btn btn-color btn-block font-weight-bold border border-secondary rounded m-1 shadow"
+                  <button type="button" class="btn btn-lg btn-color-tutvustus btn-block  font-weight-bold border border-secondary rounded m-1 shadow"
                     data-toggle="modal" data-target="#exampleModalLong5">
                     Vorstellung
                   </button>
@@ -145,7 +146,7 @@
                         </div>
                         <div class="modal-footer">
                           <button type="button" class="btn btn-color btn-block  font-weight-bold border border-secondary rounded m-1 shadow"
-                            data-dismiss="modal">Vorstellung</button>
+                            data-dismiss="modal">Einleitung</button>
                         </div>
                       </div>
                     </div>
@@ -156,22 +157,22 @@
           </div>
         </div>
 
-        <div class="col-md-4 offset-md-2">
-          <div class="jumbotron jumbotron-fluid shadow bgGradien rounded">
+        <div class="col-md-4">
+          <div class="jumbotron jumbotron-fluid bgGradien2 rounded">
             <div class="container">
-              <div class="card rounded hover-zoomin" style="width: 12rem;">
-                <img class="card-img-top rounded" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
-                  data-src="images/host/heinar.jpg" alt="Heinari pilt">
-                <div class="card-body bg-light">
+              <div class="card rounded hover-zoomin bgGradien2 border-0" style="width: 12rem;">
+                <img class="card-img-top rounded" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" alt="Heinar"
+                  data-src="images/host/heinar.jpg">
+                <div class="card-body">
                   <h5 class="card-title">Heinar</h5>
                   <h6 class="card-subtitle mb-2 text-muted">Estnisch und Russisch</h6>
                   <p class="card-text font-weight-bold">+372 5665 2061</p>
 
 
                   <!-- Button trigger modal -->
-                  <button type="button" class="btn btn-color btn-block font-weight-bold border border-secondary rounded m-1 shadow"
+                  <button type="button" class="btn btn-lg btn-color-tutvustus btn-block  font-weight-bold border border-secondary rounded m-1 shadow"
                     data-toggle="modal" data-target="#exampleModalLong6">
-                    Einleitung
+                    Vorstellung
                   </button>
 
                   <!-- Modal -->
@@ -192,8 +193,8 @@
                           </p>
                         </div>
                         <div class="modal-footer">
-                          <button type="button" class="btn btn-color btn-block  font-weight-bold border border-secondary rounded m-1 shadow"
-                            data-dismiss="modal">Schliessen</button>
+                          <button type="button" class="btn btn-color btn-block font-weight-bold border border-secondary rounded m-1 shadow"
+                            data-dismiss="modal">Einleitung</button>
                         </div>
                       </div>
                     </div>
@@ -203,6 +204,7 @@
             </div>
           </div>
         </div>
+
 
 
       </div>
@@ -281,8 +283,12 @@
                           <span aria-hidden="true">&times;</span>
                         </button>
                       </div>
-                      <div class="modal-body">
-                        <p class="lead text-black font-weight-bold">
+                      <div class="modal-body font-weight-bold ">
+                        <figure class="figure">
+                          <img class="figure-img img-fluid rounded shadow" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
+                            alt="Telkimisniidu pilt. Telgid. Skautide laager" data-src="images/telkimisniit/scoutcamp1.jpg">
+                        </figure>
+                        <p>
                           Die Zeltwiese bietet Platz für bis zu 100 Personen. Feuerstellen dürfen angelegt werden; der
                           sandige Boden sorgt auch
                           bei Regen für einen bald wieder trockenen Platz. Mitten auf der Wiese stehen drei
@@ -295,16 +301,15 @@
                           <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="images/telkimisniit/campsite1_small.jpg"
                             class="figure-img img-fluid rounded bg-dark shadow" alt="Telkimisniidu pilt. Telgid">
                         </figure>
-                        <p class="lead text-black font-weight-bold">Klapptische und -bänke für 40 Personen sind
+                        <p>Klapptische und -bänke für 40 Personen sind
                           ebenfalls vor Ort. Für grössere
                           Gruppen gibt es eine überdachte Aussenküche mit Kochherd, Gaskochern und Grossküchengerät.
                         </p>
                         <figure class="figure">
-                          <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="images/telkimisniit/pystkoda1_small.jpg"
-                            class="figure-img img-fluid rounded bg-dark shadow" alt="Telkimisniidu pilt. Püstkoda.">
-
+                          <img class="figure-img img-fluid rounded shadow" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
+                            alt="Telkimisniidu pilt. Suur telk." data-src="images/telkimisniit/bigtent.jpg">
                         </figure>
-                        <p class="lead text-black font-weight-bold">
+                        <p>
                           Lebensmittel können im Erdkeller und in Metallkisten gelagert werden. Im Holzschuppen gibt es
                           ausreichend Brennholz für
                           Koch- und Lagerfeuer.
@@ -313,13 +318,15 @@
                           <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="images/telkimisniit/kuradikook_small.jpg"
                             class="figure-img img-fluid rounded bg-dark shadow" alt="Telkimisniidu pilt. Kuradiköök.">
                         </figure>
+                        <p>
+                          Für Grill-Fans halten wir Gas- und Holzkohlegrills in unterschiedlichen Grössen (Würstchen
+                          bis Hammel) bereit.
+                        </p>
                         <figure class="figure">
                           <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="images/telkimisniit/grill_small.jpg"
                             class="figure-img img-fluid rounded bg-dark shadow" alt="Skaudid grillivad liha.">
                         </figure>
-                        <p class="lead text-black font-weight-bold">
-                          Für Grill-Fans halten wir Gas- und Holzkohlegrills in unterschiedlichen Grössen (Würstchen
-                          bis Hammel) bereit.
+                        <p>
                           Unsere elektrische Waschmaschine kann gegen Entgelt benutzt werden.
                         </p>
                       </div>
@@ -333,10 +340,9 @@
 
 
                 <!-- Button trigger modal -->
-                <button type="button" class="btn btn-color btn-block  font-weight-bold border border-secondary rounded m-1 shadow"
+                <button type="button" class="btn btn-color btn-block font-weight-bold border border-secondary rounded m-1 shadow"
                   data-toggle="modal" data-target="#exampleModalLongII">
                   Wohnmobile und Caravans
-
                 </button>
 
                 <!-- Modal -->
@@ -352,11 +358,15 @@
                         </button>
                       </div>
                       <div class="modal-body">
-                        <p class="lead text-black font-weight-bold">
+                        <p class="font-weight-bold">
                           Für Wohnmobile und Caravans haben wir vier Stellplätze mit Elektroanschluss im Schatten
                           grosser Bäume. Parkplätze sind
                           bei Bedarf genügend vorhanden
                         </p>
+                        <figure class="figure">
+                          <img class="figure-img img-fluid rounded shadow" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
+                            data-src="images/autoelamid/mobile1.jpg" alt="Autoelamud">
+                        </figure>
                       </div>
                       <div class="modal-footer">
                         <button type="button" class="btn btn-color btn-block  font-weight-bold border border-secondary rounded m-1 shadow"
@@ -385,18 +395,18 @@
                           <span aria-hidden="true">&times;</span>
                         </button>
                       </div>
-                      <div class="modal-body">
-                        <p class="lead text-black font-weight-bold">
+                      <div class="modal-body font-weight-bold">
+                        <figure class="figure">
+                          <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="images/kampingmaja/chouse1_small.jpg"
+                            class="figure-img img-fluid rounded bg-dark shadow" alt="Kämpingmaja. Vaade väljast.">
+                        </figure>
+                        <p>
                           Einfache Unterkunft bieten wir in zwei beheizbaren Campinghütten mit jeweils einem Doppelbett
                           und einem Etagenbett.
                           Eine Kaffeemaschine, ein Wasserkocher und Geschirr für Kaltmahlzeiten sind vorhanden. Sein
                           Wasch- und Trinkwasser
                           schöpft man aus einer eigenen Quelle oder holt es sich vom Brunnen.
                         </p>
-                        <figure class="figure">
-                          <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="images/kampingmaja/chouse1_small.jpg"
-                            class="figure-img img-fluid rounded bg-dark shadow" alt="Kämpingmaja. Vaade väljast.">
-                        </figure>
                         <figure class="figure">
                           <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="images/kampingmaja/chouse2_small.jpg"
                             class="figure-img img-fluid rounded bg-dark shadow" alt="Kämpingmaja. Seestvaade.">
@@ -409,7 +419,11 @@
                           <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="images/kampingmaja/chouse4_small.jpg"
                             class="figure-img img-fluid rounded bg-dark shadow" alt="Kämpingmaja. Seestvaade. Laud.">
                         </figure>
-                        <p class="lead text-black font-weight-bold">
+                        <figure class="figure">
+                          <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="images/kampingmaja/nari.jpg"
+                            class="figure-img img-fluid rounded bg-dark shadow" alt="Magamisnarid">
+                        </figure>
+                        <p>
                           Kalt waschen kann man sich am Waschtrog des Brunnens, im Toilettentrakt oder im Fluss. In der
                           Sauna kann man warm
                           duschen.
@@ -424,10 +438,6 @@
                         <figure class="figure">
                           <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="images/kampingmaja/kraanikauss.jpg"
                             class="figure-img img-fluid rounded bg-dark shadow" alt="Kraanikauss.">
-                        </figure>
-                        <figure class="figure">
-                          <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="images/kampingmaja/nari.jpg"
-                            class="figure-img img-fluid rounded bg-dark shadow" alt="Magamisnarid">
                         </figure>
                         <figure class="figure">
                           <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="images/kampingmaja/pesukyna.jpg"
@@ -459,29 +469,36 @@
                   aria-hidden="true">
                   <div class="modal-dialog" role="document">
                     <div class="modal-content">
-                      <div class="modal-header font-weight-bold">
-                        <h5 class="modal-title" id="exampleModalLongTitleIV">Einfache Unterkunft
+                      <div class="modal-header">
+<h5 class="modal-title font-weight-bold" id="exampleModalLongTitleIV">Einfache Unterkunft
                         </h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                           <span aria-hidden="true">&times;</span>
                         </button>
                       </div>
-                      <div class="modal-body">
-                        <p class="lead text-black font-weight-bold">
+<div class="modal-body font-weight-bold">
+<figure class="figure">
+  <img class="figure-img img-fluid rounded shadow" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
+    data-src="images/lihtneoomaja/bunks1.jpg" alt="Pildil on lihtsa öömaja narid.">
+</figure>
+                        <p>
                           "Ganz einfache Übernachtung" ist in unserer "Kainestusmaja" ("Ausnüchterungszelle") in
                           Etagenbetten für 6 Personen
                           möglich. Matratze, Wolldecken, bezogenes Kopfkissen: einfacher und unkomplizierter geht es
-                          wohl kaum. Hier können
-                          kleine Mahlzeiten zubereitet werden.
+                          wohl kaum.
                         </p>
                         <figure class="figure">
                           <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="images/lihtneoomaja/kainestusmaja1_small.jpg"
                             class="figure-img img-fluid rounded bg-dark shadow" alt="Lihtsa öömaja narid.">
                         </figure>
-                        <figure class="figure">
-                          <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="images/lihtneoomaja/kainestusmaja_small.jpg"
-                            class="figure-img img-fluid rounded bg-dark shadow" alt="Lihtsa öömaja kööginurk.">
-                        </figure>
+<p>
+Hier können
+  kleine Mahlzeiten zubereitet werden.
+</p>
+<figure class="figure">
+  <img class="figure-img img-fluid rounded shadow" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
+    data-src="images/lihtneoomaja/kitchen.jpg" alt="Lihtsa öömaja kööginurk.">
+</figure>
                       </div>
                       <div class="modal-footer">
                         <button type="button" class="btn btn-color btn-block  font-weight-bold border border-secondary rounded m-1 shadow"
@@ -496,7 +513,6 @@
                 <button type="button" class="btn btn-color btn-block font-weight-bold border border-secondary rounded m-1 shadow"
                   data-toggle="modal" data-target="#exampleModalLongV">
                   Bed & Breakfast-Zimmer
-
                 </button>
 
                 <!-- Modal -->
@@ -511,52 +527,66 @@
                           <span aria-hidden="true">&times;</span>
                         </button>
                       </div>
-                      <div class="modal-body">
-                        <p class="lead text-black font-weight-bold">
+<div class="modal-body font-weight-bold">
+<figure class="figure">
+  <img class="figure-img img-fluid rounded shadow" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
+    data-src="images/bbtoad/Guesthouse.JPG" alt="Maja välisvaade.">>
+</figure>
+                        <p>
                           Gehobene Bed & Breakfast-Unterkunft gibt es im Obergeschoss des alten Bauernhauses: 2
                           geräumige Doppelzimmer (sowie ein
                           Zimmer mit französischem Bett) mit Waschgelegenheit, Sitzecke und Minibar stehen zur
-                          Verfügung. Dazu gibt es ein
-                          reichhaltiges Büffett zum Frühstück und einen Aufenthaltsraum mit Sat-TV und estnischen,
-                          deutschen und englischen
-                          Zeitungen. Toilette und Dusche sind jeweils separat.
+                          Verfügung.
                         </p>
-                        <figure class="figure">
-                          <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="images/bbtoad/bb.jpg"
-                            class="figure-img img-fluid rounded bg-dark shadow" alt="Maja välisvaade.">>
-                        </figure>
-                        <figure class="figure">
-                          <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="images/bbtoad/bed.jpg"
-                            class="figure-img img-fluid rounded bg-dark shadow" alt="Voodi">>
-                        </figure>
-                        <figure class="figure">
-                          <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="images/bbtoad/bed2.jpg"
-                            class="figure-img img-fluid rounded bg-dark shadow" alt="Kaheinimesevoodi.">
-                        </figure>
-                        <figure class="figure">
-                          <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="images/bbtoad/kitchen.jpg"
-                            class="figure-img img-fluid rounded bg-dark shadow" alt="Köök laua ja toolidega.">
-                        </figure>
-                        <figure class="figure">
-                          <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="images/bbtoad/kitchen2.jpg"
-                            class="figure-img img-fluid rounded bg-dark shadow" alt="Köök. Laud ja pliit.">>
-                        </figure>
-                        <figure class="figure">
-                          <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="images/bbtoad/firstroom.jpg"
-                            class="figure-img img-fluid rounded bg-dark shadow" alt="Elutuba. Laud ja diivanid.">
-                        </figure>
-                        <figure class="figure">
-                          <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="images/bbtoad/ahi.jpg"
-                            class="figure-img img-fluid rounded bg-dark shadow" alt="Soe ahi.">
-                        </figure>
-                        <figure class="figure">
-                          <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="images/bbtoad/toilet.jpg"
-                            class="figure-img img-fluid rounded bg-dark shadow" alt="Kraanikauss ja wc.">
-                        </figure>
-                        <figure class="figure">
-                          <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="images/bbtoad/water.jpg"
-                            class="figure-img img-fluid rounded bg-dark shadow" alt="Kraanikauss toas.">
-                        </figure>
+<figure class="figure">
+  <img class="figure-img img-fluid rounded shadow" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
+    data-src="images/bbtoad/GHroom2a.jpg" alt="Külalistemaja magamistuba.">>
+</figure>
+<figure class="figure">
+  <img class="figure-img img-fluid rounded shadow" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
+    data-src="images/bbtoad/GHroom2b.jpg" alt="Ruumi vaade.Kaheinimesevoodi.">
+</figure>
+<figure class="figure">
+  <img class="figure-img img-fluid rounded shadow" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
+    data-src="images/bbtoad/GHroom3a.jpg" alt="Ruumi vaade. Kaheinimesevoodi. Televiisor akna all.">
+</figure>
+<figure class="figure">
+  <img class="figure-img img-fluid rounded shadow" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
+    data-src="images/bbtoad/GHroom3b.jpg" alt="Ruumi vaade. Diivan ja laud akna all Televiisor..">>
+</figure>
+<p class="font-weight-bold">
+Dazu gibt es ein
+reichhaltiges Büffett zum Frühstück und einen Aufenthaltsraum mit Sat-TV und estnischen,
+deutschen und englischen
+Zeitungen.
+</p>
+<figure class="figure">
+  <img class="figure-img img-fluid rounded shadow" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
+    data-src="images/bbtoad/GHsittingroom1.jpg" alt="Elutuba. Laud ja diivanid.">
+</figure>
+<figure class="figure">
+  <img class="figure-img img-fluid rounded shadow" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
+    data-src="images/bbtoad/GHsittingroom2.jpg" alt="Soe ahi.">
+</figure>
+<figure class="figure">
+  <img class="figure-img img-fluid rounded shadow" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
+    data-src="images/bbtoad/GHbreakfast.jpg" alt="Kraanikauss toas.">
+</figure>
+<figure class="figure">
+  <img class="figure-img img-fluid rounded shadow" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
+    data-src="images/bbtoad/GHstaircase.jpg" alt="Kraanikauss toas.">
+</figure>
+<p class="font-weight-bold">
+Toilette und Dusche sind jeweils separat.
+</p>
+<figure class="figure">
+  <img class="figure-img img-fluid rounded shadow" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
+    data-src="images/bbtoad/GHshower.jpg" alt="Kraanikauss toas.">
+</figure>
+<figure class="figure">
+  <img class="figure-img img-fluid rounded shadow" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
+    data-src="images/bbtoad/GHtoilet.jpg" alt="Kraanikauss ja wc.">
+</figure>
                       </div>
                       <div class="modal-footer">
                         <button type="button" class="btn btn-color btn-block font-weight-bold border border-secondary rounded m-1 shadow"
@@ -1364,20 +1394,20 @@
                                     src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="images/lapipustkoda/pystkoda1.jpg">
                                 </figure>
 
-<figure class="figure">
-<img class="figure-img img-fluid rounded bg-dark shadow" alt="Püstkoja sisevaade. Pere. Mees mängib kitarri." src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
-data-src="images/lapipustkoda/pystkoda_jaagup.jpg">
-</figure>
-                              
                                 <figure class="figure">
-<img class="figure-img img-fluid rounded bg-dark shadow" alt="Jurta sisevaade. Inimesed ümber lõkke. Mees mängib kitarri."
-  src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="images/lapipustkoda/pystkoda_l6ke.jpg">
-                               
+                                  <img class="figure-img img-fluid rounded bg-dark shadow" alt="Püstkoja sisevaade. Pere. Mees mängib kitarri."
+                                    src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="images/lapipustkoda/pystkoda_jaagup.jpg">
+                                </figure>
+
+                                <figure class="figure">
+                                  <img class="figure-img img-fluid rounded bg-dark shadow" alt="Jurta sisevaade. Inimesed ümber lõkke. Mees mängib kitarri."
+                                    src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="images/lapipustkoda/pystkoda_l6ke.jpg">
+
                                 </figure>
                                 <figure class="figure">
-<img class="figure-img img-fluid rounded bg-dark shadow" alt="Inimesed ümber grilli. Ulrich süütab küünalt." src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
-  data-src="images/lapipustkoda/pystkoda_ulrich.jpg">
-                               
+                                  <img class="figure-img img-fluid rounded bg-dark shadow" alt="Inimesed ümber grilli. Ulrich süütab küünalt."
+                                    src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="images/lapipustkoda/pystkoda_ulrich.jpg">
+
                                 </figure>
                               </div>
                               <div class="modal-footer">
