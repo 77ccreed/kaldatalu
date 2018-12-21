@@ -10,6 +10,15 @@
   padding: 0;
 }
 
+pre{
+     border: none;
+     background-color: #E6E8E6;
+     padding: 0;
+     margin: 0;
+     text-align: left;
+     white-space: pre-line;
+}
+
 .container-fluid {
   text-align: center;
   max-width: 1200px;
