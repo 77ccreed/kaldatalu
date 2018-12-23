@@ -38,12 +38,10 @@ html {
 .logo {
   max-height: 200px;
 }
-
 .card {
   margin-left: auto;
   margin-right: auto;
 }
-
 .pic {
   background-image: url("images/taust.jpg");
   background-size: cover;
@@ -79,7 +77,6 @@ html {
   min-height: 250px;
 }
 
-
 #mees{
   max-height: 180px;
 }
@@ -90,7 +87,7 @@ html {
   'Times New Roman',
   Times,
   serif;
-  text-shadow: 10px 10px 14px rgba(25, 56, 31, 0.11);
+ /* text-shadow: 10px 10px 14px rgba(25, 56, 31, 0.11);*/
   color: #2F4858;
 }
 
@@ -131,7 +128,6 @@ background: #E6E8E6;
 
 .btn-color:hover {
    background: #941B0C;
-
 }
 
 .btn-color-tutvustus {
