@@ -210,6 +210,6 @@ img {
 
 
 .navbar-fixed-top.scrolled {
-  background: #97CC04 !important;
-  transition: background-color 200ms linear;
+  background: rgba(151, 204, 4, 0.9) !important;
+  transition: background-color 1500ms linear;
 }
