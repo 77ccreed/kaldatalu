@@ -6,6 +6,11 @@ const CACHE_NAME = 'my-site-cache-v3';
 const urlsToCache = [
   '/kaldatalu/',
   '/kaldatalu/index.html',
+  '/kaldatalu/en.html',
+  '/kaldatalu/ge.html',
+  '/kaldatalu/js/map.js',
+  '/kaldatalu/js/app.js',
+  '/kaldatalu/js/service-worker.js',
   '/kaldatalu/styles.css'
 ];
 
