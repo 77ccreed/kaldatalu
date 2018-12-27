@@ -1,3 +1,22 @@
+
+document.addEventListener('DOMContentLoaded', (event) => {
+  /**
+   * Adding Service Worker as per: https://developers.google.com/web/fundamentals/codelabs/offline/
+   */
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/kaldatalu/js/service-worker.js').then((registration) => {
+      // Registration was successful
+      console.log('ServiceWorker registration successful with scope: ', registration.scope);
+    }, (err) => {
+      // registration failed :(
+      console.log('ServiceWorker registration failed: ', err);
+    });
+  }
+ 
+});
+
+
+
 // A custom script is used to activate tooltips:
 
 $(function () {
