@@ -20,8 +20,8 @@ pre{
 }
 
 .flag{
-  height: 16px;
-  width: 16px;
+  height: 18px;
+  width: 18px;
 }
 
 .container-fluid {
@@ -96,10 +96,10 @@ html {
   /*background-color: rgb(255, 216, 0);*/
 }
 
-.bgGradien2 {
+/*.bgGradien2 {
   background: linear-gradient(to left, rgb(230, 232, 230), rgb(230, 232, 230) 50%, rgb(230, 232, 230) 98%, rgb(230, 232, 230) 2%);
-  /*background: #EFCA08;*/
-}
+  background: #EFCA08;
+}*/
 
 .bg-color {
   /*background: #F2D013;*/
