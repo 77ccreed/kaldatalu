@@ -188,3 +188,8 @@ img {
   -moz-box-shadow: 10px 10px 5px -9px rgba(0, 0, 0, .75);
   box-shadow: 10px 10px 5px -9px rgba(0, 0, 0, .75)
 }
+
+.creditCard{
+   height: 68px;
+    width: 68px  
+}
