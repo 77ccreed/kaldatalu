@@ -3,11 +3,11 @@
 *::after {
   box-sizing: border-box;
   margin: 0;
-  padding: 0
+  padding: 0;
 }
 
 html {
-  scroll-behavior: smooth
+  scroll-behavior: smooth;
 }
 
 pre {
@@ -16,144 +16,144 @@ pre {
   padding: 0;
   margin: 0;
   text-align: left;
-  white-space: pre-line
+  white-space: pre-line;
 }
 
 .flag {
   height: 18px;
-  width: 18px
+  width: 18px;
 }
 
 .container-fluid {
   text-align: center;
   max-width: 1200px;
   margin-left: auto;
-  margin-right: auto
+  margin-right: auto;
 }
 
 .logo {
-  max-height: 200px
+  max-height: 200px;
 }
 
 .card {
   margin-left: auto;
-  margin-right: auto
+  margin-right: auto;
 }
 
 #pic {
   background-image: url(images/taust.jpg);
   background-size: cover;
   background-position: center;
-  min-height: 250px
+  min-height: 250px;
 }
 
 #pic2 {
   background-image: url(images/telkimisniit/camp1.jpg);
   background-size: cover;
   background-position: center;
-  min-height: 250px
+  min-height: 250px;
 }
 
 #pic3 {
   background-image: url(images/pub/veranda.jpg);
   background-size: cover;
   background-position: center;
-  min-height: 250px
+  min-height: 250px;
 }
 
 #pic4 {
   background-image: url(images/kampingmaja/chouse3_small.jpg);
   background-size: cover;
   background-position: center;
-  min-height: 250px
+  min-height: 250px;
 }
 
 #pic5 {
   background-image: url(images/telkimisniit/camp1.jpg);
   background-size: cover;
   background-position: center;
-  min-height: 250px
+  min-height: 250px;
 }
 
 #mees {
-  max-height: 180px
+  max-height: 180px;
 }
 
 .font {
   font-family: 'Cinzel', Georgia, 'Times New Roman', Times, serif;
-  color: #2F4858
+  color: #2F4858;
 }
 
 .bgGradien {
-  background: linear-gradient(to left, rgb(255, 216, 0), rgb(255, 216, 0) 50%, rgb(255, 216, 0) 98%, rgb(255, 216, 0) 2%)
+  background: linear-gradient(to left, rgb(255, 216, 0), rgb(255, 216, 0) 50%, rgb(255, 216, 0) 98%, rgb(255, 216, 0) 2%);
 }
 
 .bgGradien2 {
-  background: linear-gradient(to left, rgb(230, 232, 230), rgb(230, 232, 230) 50%, rgb(230, 232, 230) 98%, rgb(230, 232, 230) 2%)
+  background: linear-gradient(to left, rgb(230, 232, 230), rgb(230, 232, 230) 50%, rgb(230, 232, 230) 98%, rgb(230, 232, 230) 2%);
 }
 
 .bg-color {
-  background: linear-gradient(to left, rgb(255, 216, 0), rgb(151, 204, 4) 50%, rgb(255, 216, 0) 98%, rgb(255, 216, 0) 2%)
+  background: linear-gradient(to left, rgb(255, 216, 0), rgb(151, 204, 4) 50%, rgb(255, 216, 0) 98%, rgb(255, 216, 0) 2%);
 }
 
 .bg-color-secondary {
-  background: #97CC04
+  background: #97CC04;
 }
 
 .container-bg {
-  background: #E6E8E6
+  background: #E6E8E6;
 }
 
 .nav-color {
   background: #2F4858;
-  color: #D7E8BA
+  color: #D7E8BA;
 }
 
 .btn-color {
   background: #2F4858;
-  color: #D7E8BA
+  color: #D7E8BA;
 }
 
 .btn-color:hover {
-  background: #941B0C
+  background: #941B0C;
 }
 
 .btn-color-tutvustus {
   background: #2F4858;
-  color: #D7E8BA
+  color: #D7E8BA;
 }
 
 .btn-color-tutvustus:hover {
   background: #4DA1A9;
-  color: #034732
+  color: #034732;
 }
 
 #map {
   width: 100%;
   height: 400px;
-  background-color: grey
+  background-color: grey;
 }
 
 .shadow {
   -webkit-box-shadow: 10px 10px 14px -8px rgba(0, 0, 0, .75);
   -moz-box-shadow: 10px 10px 14px -8px rgba(0, 0, 0, .75);
-  box-shadow: 10px 10px 14px -8px rgba(0, 0, 0, .75)
+  box-shadow: 10px 10px 14px -8px rgba(0, 0, 0, .75);
 }
 
 @media only screen and (min-width:1150px) {
   a {
-    transition: background-color 0.9s
+    transition: background-color 0.9s;
   }
 
   a:hover {
-    text-transform: uppercase
+    text-transform: uppercase;
   }
 }
 
 .hover-zoomin {
   display: block;
   position: relative;
-  overflow: hidden
+  overflow: hidden;
 }
 
 .hover-zoomin img {
@@ -163,7 +163,7 @@ pre {
   -moz-transition: all 0.5s ease-in-out;
   -o-transition: all 0.5s ease-in-out;
   -ms-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out
+  transition: all 0.5s ease-in-out;
 }
 
 .hover-zoomin:hover img {
@@ -171,14 +171,14 @@ pre {
   -moz-transform: scale(1.1);
   -o-transform: scale(1.1);
   -ms-transform: scale(1.1);
-  transform: scale(1.1)
+  transform: scale(1.1);
 }
 
 img {
   position: relative;
   float: left;
   width: 333px;
-  height: 250px
+  height: 250px;
 }
 
 .navbar-fixed-top.scrolled {
@@ -186,10 +186,16 @@ img {
   transition: background-color 300ms ease-out;
   -webkit-box-shadow: 10px 10px 5px -9px rgba(0, 0, 0, .75);
   -moz-box-shadow: 10px 10px 5px -9px rgba(0, 0, 0, .75);
-  box-shadow: 10px 10px 5px -9px rgba(0, 0, 0, .75)
+  box-shadow: 10px 10px 5px -9px rgba(0, 0, 0, .75);
 }
 
 .creditCard{
    height: 68px;
-    width: 68px  
+    width: 68px;
+}
+
+@media print {
+  .container {
+    width: auto;
+  }
 }
