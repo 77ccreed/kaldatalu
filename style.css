@@ -110,22 +110,22 @@ pre {
 }
 
 .btn-color {
-  background: #2F4858;
-  color: #D7E8BA;
+  background: #2F4858 !important;
+  color: #D7E8BA !important;
 }
 
 .btn-color:hover {
-  background: #941B0C;
+  background: #941B0C !important;
 }
 
 .btn-color-tutvustus {
-  background: #2F4858;
-  color: #D7E8BA;
+  background: #2F4858 !important;
+  color: #D7E8BA !important;
 }
 
 .btn-color-tutvustus:hover {
-  background: #4DA1A9;
-  color: #034732;
+  background: #4DA1A9 !important;
+  color: #034732 !important;
 }
 
 #map {
