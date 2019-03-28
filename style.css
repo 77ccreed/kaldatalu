@@ -193,9 +193,3 @@ img {
    height: 68px;
     width: 68px;
 }
-
-@media print {
-  .container {
-    width: auto;
-  }
-}
