@@ -1,4 +1,6 @@
-document.addEventListener('DOMContentLoaded', (event) => {
+location.toString().replace(location.search, "")
+
+/*document.addEventListener('DOMContentLoaded', (event) => {
   if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('/kaldatalu/js/service-worker.js').then((registration) => {
       console.log('ServiceWorker registration successful with scope: ', registration.scope)
@@ -6,7 +8,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
       console.log('ServiceWorker registration failed: ', err)
     })
   }
-});
+});*/
 $(function () {
   $('[data-toggle="tooltip"]').tooltip()
 });
