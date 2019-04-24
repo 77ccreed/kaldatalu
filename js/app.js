@@ -1,5 +1,3 @@
-location.toString().replace(location.search, "")
-
 /*document.addEventListener('DOMContentLoaded', (event) => {
   if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('/kaldatalu/js/service-worker.js').then((registration) => {

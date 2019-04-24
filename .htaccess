@@ -11,6 +11,7 @@ RewriteRule ^ /%1%2 [R=302,L,NE]
 
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.html [NC,L]
+RewriteRule ^viewtopic.php https://77ccreed.github.io/kaldatalu/? [L,R=301]
 
  # you can use the two lines if file without extension not work and you want to map them to .html files and if you want to go the same file .html without extension keep it as it is . 
 
