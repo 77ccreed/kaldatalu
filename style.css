@@ -143,10 +143,23 @@ pre {
 @media only screen and (min-width:1150px) {
   a {
     transition: background-color 0.9s;
+
+     background-image: linear-gradient(transparent 90%, #97CC04 0);
+     background-repeat: no-repeat no-repeat;
+     background-size: 0 100%;
+
+
+     text-decoration: none;
+     transition-delay: 0s;
+     transition-duration: .4s;
+     transition-property: background-size;
+     transition-timing-function: ease;
+     vertical-align: baseline;
   }
 
   a:hover {
     text-transform: uppercase;
+    background-size: 100% 100%;
   }
 }
 
