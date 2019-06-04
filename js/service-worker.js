@@ -1,14 +1,13 @@
 const CACHE_NAME = 'my-site-cache-v3';
 const urlsToCache = [
-  '/',
- '/kaldatalu/',
-  '/kaldatalu/index.html',
-   '/kaldatalu/en.html',
-    '/kaldatalu/ge.html',
-     '/kaldatalu/js/map.js',
-      '/kaldatalu/js/app.js',
-       '/kaldatalu/js/service-worker.js',
-        '/kaldatalu/styles.css'
+
+  'index.html',
+   'en.html',
+    'ge.html',
+  'service-worker.js',
+     'js/map.js',
+      'js/app.js',
+        'styles.css'
       ];
 self.addEventListener('install', (event) => {
   event.waitUntil(caches.open(CACHE_NAME).then((cache) => {
